@@ -2,7 +2,7 @@ package sort;
 
 /**
  * Created by reiserx on 2017/12/21.
- * 排序测试
+ * test of sort
  */
 public class SortTest {
 

@@ -2,7 +2,7 @@ package sort;
 
 /**
  * Created by reiserx on 2017/12/21.
- * 希尔排序
+ * the arithmetic of shell sort
  */
 public class ShellSort extends Sort {
     @Override

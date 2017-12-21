@@ -2,6 +2,7 @@ package sort;
 
 /**
  * Created by reiserx on 2017/12/21.
+ * sort superclass
  */
 public abstract class Sort {
 

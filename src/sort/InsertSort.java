@@ -2,7 +2,7 @@ package sort;
 
 /**
  * Created by reiserx on 2017/12/21.
- * 插入排序
+ * the arithmetic of inser sort
  */
 public class InsertSort extends Sort {
     @Override

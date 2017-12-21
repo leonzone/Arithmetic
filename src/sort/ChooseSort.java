@@ -2,7 +2,7 @@ package sort;
 
 /**
  * Created by reiserx on 2017/12/21.
- * 选择排序
+ * the  arirhmetic of choose sort
  */
 public class ChooseSort extends Sort {
     @Override
