@@ -7,18 +7,18 @@ package sort;
 public class ShellSort extends Sort {
     @Override
     public void sort(Comparable[] a) {
-        int N = 1;
-        while (N < a.length / 3) {
-            N = N * 3 + 1;
+        int h = 1;
+        while (h < a.length / 3) {
+            h = h * 3 + 1;
         }
 
-        while (N >= 1) {
-            for (int i = 0; i < a.length; i++) {
-                for (int j = i; j > N - 1 && less(a[j], a[j - N]); j--) {
-                    exch(a, j, j - N);
+        while (h >= 1) {
+            for (int i = h; i < a.length; i++) {
+                for (int j = i; j >= h && less(a[j], a[j - h]); j-=h) {
+                    exch(a, j, j - h);
                 }
             }
-            N = N / 3;
+            h = h / 3;
         }
     }
 }
