@@ -8,7 +8,8 @@ public class SortTest {
 
     public static void main(String[] args) {
         String[] s = new String[]{"S", "O", "R", "T", "E", "X", "A", "M", "P", "L", "E"};
-        Sort sort = new MergeSort();
+//        Sort sort = new MergeSort();
+        Sort sort = new QuickSort();
 //        Sort sort = new ShellSort();
 //        Sort sort = new InsertSort();
 //        Sort sort = new ChooseSort();
