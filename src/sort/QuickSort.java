@@ -2,7 +2,7 @@ package sort;
 
 /**
  * Created by reiserx on 2017/12/21.
- * the  arirhmetic of choose sort
+ * the  arirhmetic of quick sort
  */
 public class QuickSort extends Sort {
     @Override
