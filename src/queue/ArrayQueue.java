@@ -7,7 +7,6 @@ package queue;
  */
 public class ArrayQueue {
 
-
     private String[] container;
     private int size = 0;
     private int head = 0;

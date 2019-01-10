@@ -7,9 +7,9 @@ package queue;
  */
 public class LinkedlistQueue {
 
-    ListNode container;
-    ListNode head;
-    ListNode tail;
+    private ListNode container;
+    private ListNode head;
+    private ListNode tail;
 
     public static class ListNode {
         int val;
