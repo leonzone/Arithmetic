@@ -1,8 +1,8 @@
-package sort;
+package arithmetic.sort;
 
 /**
  * Created by reiserx on 2017/12/21.
- * the  arirhmetic of choose sort
+ * the  arirhmetic of choose arithmetic.sort
  */
 public class ChooseSort extends Sort {
     @Override

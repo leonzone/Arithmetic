@@ -1,8 +1,8 @@
-package sort;
+package arithmetic.sort;
 
 /**
  * Created by reiserx on 2017/12/21.
- * the arithmetic of inser sort
+ * the arithmetic of inser arithmetic.sort
  */
 public class InsertSort extends Sort {
     @Override

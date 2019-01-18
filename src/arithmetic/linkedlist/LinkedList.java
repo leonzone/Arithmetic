@@ -1,4 +1,6 @@
-package linkedlist;
+package arithmetic.linkedlist;
+
+import structure.linkedlist.ListNode;
 
 public class LinkedList {
     public static void main(String[] args) {
@@ -75,7 +77,7 @@ public class LinkedList {
 
 
     /**
-     * 删除链表的倒数第 n 个节点
+     * 返回链表的倒数第 n 个节点
      */
     public ListNode removeNthFromEnd(ListNode head, int n) {
         ListNode pre = head;
@@ -97,16 +99,6 @@ public class LinkedList {
 
 
 
-
-    public static class ListNode {
-        int val;
-        ListNode next;
-
-        ListNode(int x) {
-            val = x;
-            next = null;
-        }
-    }
 
     /**
      * 创建测试数据

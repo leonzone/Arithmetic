@@ -1,4 +1,4 @@
-package queue;
+package structure.queue;
 
 /**
  * Author: reiserx

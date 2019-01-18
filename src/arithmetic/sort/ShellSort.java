@@ -1,8 +1,8 @@
-package sort;
+package arithmetic.sort;
 
 /**
  * Created by reiserx on 2017/12/21.
- * the arithmetic of shell sort
+ * the arithmetic of shell arithmetic.sort
  */
 public class ShellSort extends Sort {
     @Override

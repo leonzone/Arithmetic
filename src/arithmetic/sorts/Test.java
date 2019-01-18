@@ -1,4 +1,4 @@
-package sorts;
+package arithmetic.sorts;
 
 /**
  * Created by reiserx on 2018/10/25.
@@ -9,7 +9,7 @@ public class Test {
         int[] arr = {3, 2, 6, 4, 5, 1, 9, 20, 13, 16};
         Sorts sorts = new Sorts();
         sorts.insertSort(arr);
-//        sorts.bubbleSort(arr);
+//        arithmetic.sorts.bubbleSort(arr);
         print(arr);
 
     }

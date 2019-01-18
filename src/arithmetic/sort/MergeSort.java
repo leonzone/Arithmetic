@@ -1,8 +1,8 @@
-package sort;
+package arithmetic.sort;
 
 /**
  * Created by reiserx on 2017/12/26.
- * the arithmetic of merge sort
+ * the arithmetic of merge arithmetic.sort
  */
 public class MergeSort extends Sort {
 

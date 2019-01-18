@@ -1,4 +1,4 @@
-package strings;
+package arithmetic.strings;
 
 /**
  * Author: reiserx
@@ -37,6 +37,5 @@ public class BruteForce {
     public static void main(String[] args) {
         BruteForce bf = new BruteForce();
         System.out.println(bf.indexOf("aabcdef", "abc"));
-//        "abcdef".indexOf()
     }
 }

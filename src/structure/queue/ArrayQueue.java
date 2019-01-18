@@ -1,11 +1,11 @@
-package queue;
+package structure.queue;
 
 /**
  * Author: reiserx
  * Date:2019/1/9
- * Des:循环队列
+ * Des:顺序队列
  */
-public class CircularQueue {
+public class ArrayQueue {
 
     private String[] container;
     private int size = 0;
@@ -13,7 +13,7 @@ public class CircularQueue {
     private int tail = 0;
 
 
-    public CircularQueue(int size) {
+    public ArrayQueue(int size) {
         this.size = size;
         container = new String[size];
     }
@@ -21,23 +21,28 @@ public class CircularQueue {
 
     //入队
     public void enqueue(String value) {
-        //判断队列已满
-        if ((tail + 1) % size == head) {
-            return;
+        if (tail == size) {
+            if (head == 0) {
+                return;
+            }
+            for (int i = head; head < tail; i++) {
+                container[i - head] = container[i];
+            }
+            tail -= head;
+            head = 0;
         }
         container[tail] = value;
-        tail = (tail + 1) % size;
+        ++tail;
 
     }
 
     //出队
     public String dequeue() {
-        //判断队列空了
         if (head == tail) {
             return null;
         }
         String value = container[head];
-        head = (head + 1) % size;
+        ++head;
         return value;
     }
 
@@ -46,8 +51,8 @@ public class CircularQueue {
         ArrayQueue queue = new ArrayQueue(5);
         queue.enqueue("5");
         queue.enqueue("2");
-        queue.enqueue("8");
-        queue.enqueue("0");
+        queue.enqueue("3");
+        queue.enqueue("4");
         System.out.print(queue.dequeue() + "-->");
         System.out.print(queue.dequeue() + "-->");
         System.out.print(queue.dequeue() + "-->");

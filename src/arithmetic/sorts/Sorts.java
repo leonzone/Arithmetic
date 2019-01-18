@@ -1,4 +1,4 @@
-package sorts;
+package arithmetic.sorts;
 
 /**
  * Created by reiserx on 2018/10/25.
