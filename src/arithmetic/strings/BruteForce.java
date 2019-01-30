@@ -6,12 +6,16 @@ package arithmetic.strings;
  * Des:find substring use BruteForce
  */
 public class BruteForce {
-    public int indexOf(String main, String pattern) {
+    public int indexOf(String haystack, String needle) {
 
-        char[] mainchars = main.toCharArray();
-        char[] pchars = pattern.toCharArray();
 
-        for (int i = 0; i < mainchars.length - pchars.length; i++) {
+        char[] mainchars = haystack.toCharArray();
+        char[] pchars = needle.toCharArray();
+
+        if (pchars.length == 0 || haystack.equals(needle)) {
+            return 0;
+        }
+        for (int i = 0; i <= mainchars.length - pchars.length; i++) {
             if (mainchars[i] == pchars[0]) {
                 if (pchars.length == 1) {
                     return i;
@@ -36,6 +40,12 @@ public class BruteForce {
 
     public static void main(String[] args) {
         BruteForce bf = new BruteForce();
-        System.out.println(bf.indexOf("aabcdef", "abc"));
+//        System.out.println(bf.indexOf("aabcdef", "abc"));
+//        System.out.println(bf.indexOf("", ""));
+//        System.out.println(bf.indexOf("a", ""));
+//        System.out.println(bf.indexOf("", "a"));
+//        System.out.println(bf.indexOf("a", "a"));
+//        System.out.println(bf.indexOf("ccccccab", "abc"));
+        System.out.println(bf.indexOf("mississippi", "pi"));
     }
 }

@@ -8,8 +8,6 @@ package arithmetic.strings;
 public class RabinKarp {
 
     public int indexOf(String main, String pattern) {
-
-
         return -1;
     }
 
