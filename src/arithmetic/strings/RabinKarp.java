@@ -3,7 +3,7 @@ package arithmetic.strings;
 /**
  * Author: reiserx
  * Date:2019/1/14
- * Des:
+ * Des: RK
  */
 public class RabinKarp {
 
