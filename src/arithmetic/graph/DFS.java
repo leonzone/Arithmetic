@@ -44,6 +44,9 @@ public class DFS {
                 prev[q] = w;
                 recurDfs(q, t, visited, prev);
             }
+            if (found) {
+                break;
+            }
         }
 
     }
