@@ -12,7 +12,7 @@ public class DirGraph {
     //顶点个数
     private int v;
     //邻接表
-    private List<Integer> adj[];
+    private List<Integer>[] adj;
 
     public DirGraph(int v) {
         this.v = v;
