@@ -17,36 +17,21 @@ public class QuickSort extends Sort {
         }
         int j = partition(a, lo, hi);
         sort(a, lo, j - 1);
-        sort(a, j+1, hi);
+        sort(a, j + 1, hi);
 
     }
 
-    private int partition(Comparable[] a, int lo, int hi) {
-        Comparable v = a[lo];
-        int i = lo ;
-        int j = hi+1;
-        while (true) {
-            //samller
-            while (less(a[++i],v)){
-                if(i==hi){
-                    break;
-                }
+    private int partition(Comparable[] a, int p, int r) {
+        Comparable pivot = a[r];
+        int i = p;
+        for (int j = p; j < r; ++j) {
+            if (less(a[j], pivot)) {
+                exch(a, i, j);
+                i++;
             }
-            //bigger
-            while (less(v,a[--j])){
-                if(j==lo){
-                    break;
-                }
-            }
-
-            if (i >= j) {
-                break;
-            }
-            exch(a, i, j);
         }
-
-        exch(a, lo, j);
-        return j;
-
+        exch(a, i, r);
+        System.out.println("i=" + i);
+        return i;
     }
 }
