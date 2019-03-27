@@ -5,7 +5,7 @@
 ### 数据结构
 
 - 链表
-    - 单向链表
+    - [单向链表](/structure/linkedlist/ListNode)
     
 - 队列
     - 顺序队列
