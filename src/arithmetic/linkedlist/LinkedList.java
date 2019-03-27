@@ -3,10 +3,6 @@ package arithmetic.linkedlist;
 import structure.linkedlist.ListNode;
 
 public class LinkedList {
-    public static void main(String[] args) {
-
-    }
-
 
     /**
      * 反转链表
@@ -97,7 +93,23 @@ public class LinkedList {
         return head;
     }
 
+    /**
+     * 返回链表的中间节点
+     */
+    public ListNode middleNode(ListNode head) {
+        ListNode fast = head;
+        ListNode slow = head;
 
+        while (fast.next != null && fast.next.next != null) {
+            fast = fast.next.next;
+            slow = slow.next;
+        }
+        if(fast.next==null){
+            slow = slow.next;
+        }
+        return slow;
+
+    }
 
 
     /**

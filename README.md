@@ -2,22 +2,39 @@
 
 项目的目的是整理常用```数据结构``` 和 ```算法```，以作为一个快速工具类使用。
 
-### 数据结构
+## 数据结构
 
-- 链表
-    - 单向链表
+- 数组
+    - [支持动态扩容的数组](/src/structure/array/DEArray.java)
+    - [大小固定的有序数组，支持动态增删改操作](/src/structure/array/DArray.java)
     
+- 链表
+    - [单向链表](/src/structure/linkedlist/SinglyLinkedList.java)
+    - [循环链表](/src/structure/linkedlist/CycleSinglyLinkedList.java)
+    - [双向链表](/src/structure/linkedlist/DoubleLinkedList.java)
+<!--   
 - 队列
     - 顺序队列
     - 链式队列
     - 循环队列
 - 树
     - 二分搜索树
+-->
     
     
-    
-### 算法
+## 算法
 
+- 数组
+    - [两个有序数组合并为一个有序数组](/src/arithmetic/array/MergeTwoArray.java)
+   
+- 链表操作
+    - [反转链表](/src/arithmetic/linkedlist/LinkedList.java) 
+    - [检测环](/src/arithmetic/linkedlist/LinkedList.java)
+    - [合并两个有序链表](/src/arithmetic/linkedlist/LinkedList.java) 
+    - [删除链表的倒数第 n 个节点](/src/arithmetic/linkedlist/LinkedList.java)
+    - [链表的中间结点](/src/arithmetic/linkedlist/LinkedList.java)
+     
+<!--
 - 排序
     - 冒泡排序
     - 选择排序
@@ -30,13 +47,9 @@
     - BF
     - RK
 
-- 链表操作
-    - 反转链表
-    - 检测环
-    - 合并两个有序链表 
-    - 删除链表的倒数第 n 个节点
-    
+
 - 回溯算法
     - 八皇后问题
     - 01背包
+-->
 
