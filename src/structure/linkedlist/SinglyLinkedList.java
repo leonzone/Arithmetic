@@ -119,7 +119,9 @@ public class SinglyLinkedList {
             p = p.next;
         }
 
-        if (p == null) return;
+        if (p == null) {
+            return;
+        }
 
         if (q == null) {
             head = head.next;

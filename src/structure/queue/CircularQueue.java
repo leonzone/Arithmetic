@@ -27,7 +27,6 @@ public class CircularQueue {
         }
         container[tail] = value;
         tail = (tail + 1) % size;
-
     }
 
     //出队
@@ -43,7 +42,7 @@ public class CircularQueue {
 
 
     public static void main(String[] args) {
-        ArrayQueue queue = new ArrayQueue(5);
+        CircularQueue queue = new CircularQueue(5);
         queue.enqueue("5");
         queue.enqueue("2");
         queue.enqueue("8");
