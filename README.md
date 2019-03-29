@@ -21,8 +21,7 @@
     - [顺序队列](/src/structure/queue/ArrayQueue.java)
     - [链式队列](/src/structure/queue/LinkedlistQueue.java)
     - [循环队列](/src/structure/queue/CircularQueue.java)
-    
-    
+     
       
 <!--   
 - 树
@@ -43,24 +42,26 @@
     - [链表的中间结点](/src/arithmetic/linkedlist/LinkedList.java)
     
 - 栈
-   - [浏览器前进、后退](/src/arithmetic/stack/SimpleBrowser.java)
+    - [浏览器前进、后退](/src/arithmetic/stack/SimpleBrowser.java)
    
 - 递归
-   - [斐波拉契数列求值](/src/arithmetic/recursion/Fibonacci.java)
-   - [求阶乘 n!](/src/arithmetic/recursion/Factorial.java)
-   - [一组数据集合的全排列](/src/arithmetic/recursion/FullyArranged.java)
+    - [斐波拉契数列求值](/src/arithmetic/recursion/Fibonacci.java)
+    - [求阶乘 n!](/src/arithmetic/recursion/Factorial.java)
+    - [一组数据集合的全排列](/src/arithmetic/recursion/FullyArranged.java)
    
-   
-     
-<!--
-- 排序
-    - 冒泡排序
-    - 选择排序
-    - 插入排序
-    - 合并排序
-    - shell 排序
-    - 快排
+- 排序     
+    - [并归排序](/src/arithmetic/sort/Sorts.java)
+    - [快速排序](/src/arithmetic/sort/Sorts.java)
+    - [插入排序](/src/arithmetic/sort/Sorts.java)
+    - [冒泡排序](/src/arithmetic/sort/Sorts.java)
+    - [选择排序](/src/arithmetic/sort/Sorts.java)
+    - [一组数据的第 K 大元素](/src/arithmetic/sort/TopK.java)
 
+- 二分查找
+    - [一个有序数组的二分查找算法](/src/arithmetic/search/BSearch.java)
+    - [模糊二分查找算法](/src/arithmetic/search/BSearch.java) 
+        
+<!--
 - 字符串搜索
     - BF
     - RK

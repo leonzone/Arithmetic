@@ -26,7 +26,7 @@ public class MergeTwoArray {
             }
             if (j == b.length) {
                 for (int l = i; l < a.length; l++) {
-                    result[k] = b[l];
+                    result[k] = a[l];
                     k++;
                 }
                 break;
