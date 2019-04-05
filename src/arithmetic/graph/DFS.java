@@ -10,7 +10,7 @@ import java.util.List;
  * Des:深度优先搜索
  */
 public class DFS {
-    boolean found = false; // 全局变量或者类成员变量
+    boolean found = false;
 
     private static int v = 8;
 
@@ -30,7 +30,9 @@ public class DFS {
     //使用回溯思想
     private void recurDfs(int w, int t, boolean[] visited, int[] prev) {
 
-        if (found) return;
+        if (found) {
+            return;
+        }
         visited[w] = true;
         if (w == t) {
             found = true;

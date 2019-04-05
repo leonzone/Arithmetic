@@ -18,12 +18,13 @@ public class MiniDist {
     public int miniDist(int n) {
         int[][] status = new int[n][n];
         int sum = 0;
-
+        //初始化第一行
         for (int i = 0; i < n; i++) {
             sum = sum + matrix[0][i];
             status[0][i] = sum;
         }
         sum = 0;
+        //初始化第一列
         for (int i = 0; i < n; i++) {
             sum = sum + matrix[i][0];
             status[i][0] = sum;

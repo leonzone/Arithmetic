@@ -20,7 +20,9 @@ public class BFS {
 
 
     public void bfs(int s, int t) {
-        if (s == t) return;
+        if (s == t) {
+            return;
+        }
         //记录已经访问过的顶点
         boolean[] visited = new boolean[v];
         visited[s] = true;

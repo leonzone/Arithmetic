@@ -63,8 +63,27 @@
     - [实现二叉树前、中、后序以及按层遍历](/src/structure/tree/BinarySearchTree.java)
     
 - 堆
-    - 实现一个小顶堆、大顶堆、优先级队列
-    - 实现堆排序
-    - 利用优先级队列合并 K 个有序数组
-    - 求一组动态数据集合的最大 Top K
+    - 实现一个[小顶堆](/src/structure/heap/SmallHeap.java)、[大顶堆](/src/structure/heap/BigHeap.java)、[优先级队列](/src/structure/heap/PriorityQueueBaseHeap.java)
+    - [实现堆排序](/src/arithmetic/heap/HeapSort.java)  
+    - [利用优先级队列合并 K 个有序数组](/src/arithmetic/heap/CombinMultiSortArray.java) 
+    - [求一组动态数据集合的最大 Top K](/src/arithmetic/heap/TopK.java) 
+    
+- 图     
+    - [实现有向图、无向图、有权图、无权图的邻接矩阵和邻接表表示方法](/src/structure/graph)
+    - 实现图的[深度优先搜索](/src/arithmetic/graph/BFS.java)、[广度优先搜索](/src/arithmetic/graph/BFS.java)
+    - 实现[ Dijkstra 算法](/src/arithmetic/graph/dijkstra/Dijkstra.java)、A* 算法
+    - 实现拓扑排序的[Kahn 算法](/src/arithmetic/graph/sorting/Topo.java)、[DFS 算法](/src/arithmetic/graph/sorting/Topo.java)
 
+- 回溯
+    - [利用回溯算法求解八皇后问题](/src/arithmetic/backtracking/Cal8queen.java)
+    - [利用回溯算法求解0-1背包问题](/src/arithmetic/backtracking/Backpack.java)
+    
+- 分治
+    - 利用分治算法求-组数据的逆序对个数
+    
+- 动态规划
+    - [0-1背包问题](/src/arithmetic/dp/Knapsack.java)
+    - [最小路径](/src/arithmetic/dp/MiniDist.java)
+    - 编程实现莱文斯坦最短编辑距离
+    - 编程实现查找两个字符串的最长公共子序列
+    - 编程实现一个数据序列的最长递增子序列
